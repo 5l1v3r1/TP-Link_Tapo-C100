@@ -1,6 +1,6 @@
  # TP-Link_Tapo-C100
 
-- This repos is not done, wilkl be updated now and then upcomming weeks when this text is gone this repo is complete.
+- This repos is not done, repo will be updated now and when this text is gone this repo is complete.
 
 ![Screenshot_20221112_132759](https://user-images.githubusercontent.com/26827453/201473935-8cf90a72-37e8-4dd7-85f9-8e96a80e652a.png)
 
