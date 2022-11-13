@@ -17,7 +17,7 @@
 * mplayer is required to be built with rmp useflag
 
 ```bash
-printf '%s' 'media-video/mplayer rtmp' >> /etc/portage/package.yuse
+printf '%s' 'media-video/mplayer rtmp' >> /etc/portage/package.use
 emerge --ask media-video/mplayer
 ```
 
@@ -100,7 +100,7 @@ night_auto_wdr_level=60
 ```
 
 
-### mtd partiotions
+### mtd partitions
 ```
 [    0.405000] 0x000000000000-0x00000001d800 : "factory_boot"
 [    0.434000] 0x00000001d800-0x000000020000 : "factory_info"
