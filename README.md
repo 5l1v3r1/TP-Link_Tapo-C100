@@ -2,12 +2,53 @@
 
 - This repos is not done, repo will be updated now and when this text is gone this repo is complete.
 
-![Screenshot_20221112_132759](https://user-images.githubusercontent.com/26827453/201473935-8cf90a72-37e8-4dd7-85f9-8e96a80e652a.png)
+## Welcome Motd
+
+![picture](https://user-images.githubusercontent.com/26827453/201730181-74e7ca4f-be57-4fdf-aab7-0b9026e3de4a.png)
+
+# Actions when using tapo application for Android
+
+![11111111](https://user-images.githubusercontent.com/26827453/201730602-248d5891-4af6-431a-a50b-db408d878489.png)
+
+## Bootlog
+
+https://user-images.githubusercontent.com/26827453/201727303-cba5a51c-36f3-4eef-bb6a-fe791bd83250.mp4
+
+## Serial Console connection
+
+![Screenshot_20221114_183759](https://user-images.githubusercontent.com/26827453/201728271-a0dfc56a-fe43-47b6-8cf1-2b4b7ebb1ec0.png)
+
+## Pins (3.3v/TX/RX/GND)
 
 ![Screenshot_20221112_132634](https://user-images.githubusercontent.com/26827453/201473951-3ac58a5f-322d-41c8-8f9b-8e59566e39bd.png)
 
-# rtsp streams
+## Device Info 
 
+![Screenshot_20221112_132759](https://user-images.githubusercontent.com/26827453/201473935-8cf90a72-37e8-4dd7-85f9-8e96a80e652a.png)
+
+## Default user managment for root and third account
+
+![Screenshot_20221114_190725](https://user-images.githubusercontent.com/26827453/201734244-294911d7-64b4-42d2-a8b4-8d691a9a4137.png)
+
+```bash
+root@SLP:~# uci show |grep -i user
+OSD_capability.font_info.color_type=auto user_defined
+cloud_config.bind.username=LnZuKvjZPUSpZSyY8kd81xbQR3Xq3OSWff3cxEPaDfs=
+function.module_spec.multi_user=0
+luci.flash_keep.firewall=/etc/firewall/firewall.user
+user_management.root=root
+user_management.root.username=admin
+user_management.root.passwd=zMiVw8Kw0oxKXL0
+user_management.root.ciphertext=dl5GoIRk+FMC/JgP5yLjA+r8PynYYSai8DSmdv1Xw7iALNEKxkE5UusQw6BMC4+FlcWv0bCPuw8DSlSk/vkmcTZ/BF/ZY1ENNJqo+uJtiGi2f1zJFjleYhPlDx4YXa3qp7oSNF8EU1BU4mOY9nEtUakFl4oVPsvlLGM3qE/zI2k=
+user_management.third_account=third_account
+user_management.third_account.username=smartiotlabs
+user_management.third_account.passwd=0D83FC47FCCD51994B037D7E4073A42D
+user_management.third_account.ciphertext=LdOqb/kbSX+yHIXePEiv0ci8KZS3tAbnmPk2DIGhyHcLbR2k5ZNPS61EGc5vODCE0bb3dP7H0qhOWqv1/GdoWCfdjdSCfYW26AXHQnUDMMdCtdQYxi5hTrCUDruj+ESPzT+10a+rIjA8ogHkqOZijilxLbg2GzhwRTshOOO1Rm4=
+user_management.third_account.smartiotlabs_default_config=0
+user_management.authentication=authentication
+user_management.authentication.basic_enabled=0
+```
+## rtsp streams
 
 * Play this stream using the URL:  rtsp://192.168.1.138/stream1
 * Play this stream using the URL: rtsp://192.168.1.138/stream2
